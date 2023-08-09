@@ -1,0 +1,69 @@
+.navbar {
+  padding: 20px;
+  background-color: #58e0da;
+}
+
+.navbar .nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.navbar .nav-list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.navbar #nav-form input {
+  width: 100%;
+  height: 40px;
+  background-color: #08083b;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 0 5px;
+}
+
+.navbar #nav-form input::-webkit-input-placeholder {
+  color: white;
+}
+
+.navbar #nav-form input:-ms-input-placeholder {
+  color: white;
+}
+
+.navbar #nav-form input::-ms-input-placeholder {
+  color: white;
+}
+
+.navbar #nav-form input::placeholder {
+  color: white;
+}
+
+.navbar #nav-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar #nav-form button {
+  position: relative;
+  right: 27px;
+  background: none;
+  border: none;
+  color: skyblue;
+}
+
+.navbar .mav {
+  padding: 30%;
+  background-color: blue;
+}
+/*# sourceMappingURL=sass2.css.map */

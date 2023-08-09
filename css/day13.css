@@ -1,0 +1,102 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 100px;
+    color:skyblue;
+    padding-top: 15%;
+    position: relative;
+    animation: swish 1s linear alternate infinite;
+}
+.wrap i{
+    animation: rollleft 2s linear infinite;
+}
+#middle{
+    position: absolute;
+    top: 93%;
+    animation: rollRight 2s linear infinite;
+}
+@keyframes rollleft{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rollRight{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+/*@media (max-width:768px)*/
+        
+
+@keyframes swish{
+
+    0%{
+        color: green;
+    }
+    10%{
+        color: red;
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color:blue;
+    }
+    40%{
+        color:orangered;
+    }
+    75%{
+        color:limegreen;
+    }
+    100%{
+        color:black;
+    }
+    
+
+    
+}
+.main{
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.contain{
+    width: 400px;
+    height: 400px;
+    
+}
+.move{
+    position: absolute;
+    width: 100px;
+    bottom: -70px;
+}
+.caption{
+    background-color: red;
+    padding: 5px;
+    display: none;
+    color: white;
+    width: 400px;
+    
+}
+.caption2{
+    padding-top: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.contain:hover .caption{
+    display: block;
+
+}
+.contain:hover .caption2{
+    color: skyblue;
+
+}

@@ -1,0 +1,21 @@
+/*@function getColor(){
+    @return map-get($color ,$colors );
+}*/
+.one h1 {
+  font-size: getvar((lg: 80px, md: 30px, sm: 10px), md);
+  color: getvar((primary: blue, secondary: grey, danger: red), primary);
+  /*color: map-get($colors ,secondary);*/
+}
+
+.one p {
+  font-size: 20px;
+  color: green;
+}
+
+.one a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 100vmax;
+}
+/*# sourceMappingURL=sass1.css.map */

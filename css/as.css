@@ -1,0 +1,255 @@
+/*.navbar {
+    padding: -10px;
+    display:flex;
+    justify-items: first baseline;
+    background-color:white;
+    color: white;
+    white-space: nowrap;
+}
+.navbar .left{
+    color:lightseagreen;
+    font-size: 25px;
+    text-align: left;
+    top: 10px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+
+}
+.link{
+    text-decoration: black;
+    color: black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.link:hover{
+    color:lightseagreen;
+    padding-bottom: 15px;
+
+}*/
+.nav-item:hover .nav-link{
+    color: skyblue;
+    border-bottom: 1px solid;
+
+}
+.nav-item:hover .nav-linkactive{
+    color: skyblue;
+
+}
+.one{
+    color: black;
+}
+.wrapper{
+    background-image: url(../images/Classes-Block-960x720.jpg);
+    background-size: cover;
+    background-position: top;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-auto-rows: minmax(300px,auto);
+    border: 50px;
+}
+.tango{
+    text-align: center;
+    font-weight: lighter;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.tango h3{
+    font-weight: lighter;
+}
+.sink{
+    list-style: none;
+    display: flex;
+    gap: 10px ;
+    padding-right: 150px;
+    text-decoration: black;
+    color: black;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: medium;
+    text-align:center ;
+    background-color: gainsboro;
+}
+
+.sink:hover{
+    color: lightseagreen;
+}
+.main{
+    width: 800px;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-image: url(../images/joe-coffee-rwanda-agasaro-WIC-1875x1875-1-960x960.png);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 1%;
+
+    
+
+}
+
+.move{
+    position: absolute;
+    width: 100px;
+    bottom: -70px;
+}
+.caption{
+    background-color: rgb(158, 149, 149);
+    padding: 5px;
+    display: none;
+    color: white;
+    width: 400px;
+    
+}
+.caption2{
+    padding-top: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.contain:hover .caption{
+    display: block;
+
+}
+.contain:hover .caption2{
+    color: skyblue;
+
+}
+.plain{
+    width: 800px;
+}
+.stain{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-image: url(../images/joe-coffee-GH-ColdBrewBanner-1875x1875-1-960x960.png);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 1%;
+
+    
+
+}
+
+.zoom{
+    position: absolute;
+    width: 100px;
+    bottom: -70px;
+}
+.action{
+    background-color: lightseagreen;
+    padding: 5px;
+    display: none;
+    color: white;
+    width: 400px;
+    
+}
+.action2{
+    padding-top: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.stain:hover .action{
+    display: block;
+
+}
+.stain:hover .action2{
+    color: skyblue;
+
+}
+.rain{
+    width: 800px;
+    align-content: center;
+}
+.tain{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-image: url(../images/Wholesale-Block-960x720.jpg);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: 1%;
+
+    
+
+}
+
+.broom{
+    position: absolute;
+    width: 100px;
+    bottom: -70px;
+}
+.cap{
+    background-color: pink;
+    padding: 5px;
+    display: none;
+    color: white;
+    width: 400px;
+    
+}
+.cap2{
+    padding-top: 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.tain:hover .cap{
+    display: block;
+
+}
+.tain:hover .cap2{
+    color: skyblue;
+
+}
+.test{
+    background-image: url(../images/joe-coffee-quality-cupping-960x720.jpg);
+    width: 1500px;
+    height: 600px;
+    
+}
+.test h1{
+    font-weight: bold;
+}
+.navbar{
+    padding: 1000px;
+}
+.joe{
+    background-color:rgb(34, 136, 199);
+    width: 1350px;
+    height: 700px;
+    
+}
+.rex{
+    color: white;
+}
+.rex:hover{
+    color: white;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

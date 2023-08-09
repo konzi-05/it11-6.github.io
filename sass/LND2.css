@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .R2 {
+    padding-right: 500px;
+  }
+}
+
+.R1 {
+  background-color: burlywood;
+  margin: 0 -3rem;
+  padding: 0.5rem 8rem;
+  padding-bottom: 300px;
+}
+
+.T1 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.T2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.T3 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.T4 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.T5 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.G1 {
+  font-size: 25px;
+}
+
+.G2 {
+  font-size: 25px;
+}
+
+.G3 {
+  font-size: 25px;
+}
+
+.T6 {
+  font-size: 25px;
+  color: #351e01;
+}
+/*# sourceMappingURL=LND2.css.map */

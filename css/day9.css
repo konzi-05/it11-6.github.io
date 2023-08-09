@@ -1,0 +1,55 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.one{
+    background-color:red;
+    color: seashell;
+}
+.two{
+    background-color: springgreen;
+    color: whitesmoke;
+    position: static;
+    left: 20px;
+}
+.three{
+    background-color: purple;
+    color: wheat;
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    z-index: 3;
+}
+.four{
+    background-color: rgb(122, 93, 122);
+    color: tan;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50%;
+    /*z-index: 999999999999;*/
+
+}
+.sticky{
+    background-color: blueviolet;
+    color:white;
+    position:sticky;
+    top: 0%;
+    z-index: 2;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+.wrapper img{
+    width: 100%;
+}
+.wrapper .img{
+    position: sticky;
+    top: 0;
+}

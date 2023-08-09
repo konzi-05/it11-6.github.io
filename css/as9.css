@@ -1,0 +1,73 @@
+.one{
+    background-color:lightseagreen;
+    text-align: center;
+    top: 200px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+}
+.left{
+    font-style: italic;
+}
+.navbar {
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    background-color:white;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap:40px ;
+    padding:24px;
+}
+.link{
+    text-decoration: black;
+    color: black;
+    text-transform: uppercase;
+}
+.link:hover{
+    color:lightseagreen;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+.z{
+    display: flex;
+    padding: 24px;
+    gap: 30px;
+    background-size: 10px;
+    border-radius: 10%;
+    shape-margin: 10px;
+    background-color: lightseagreen;
+    border-right: black;
+    border-left: black;
+    border-top: black;
+    border-bottom: black;
+    text-decoration: black;
+    color: black;
+    text-emphasis-position:center;
+    
+    
+}*
+/*GRID STYLE*/
+.wrapper div{
+    background-color: skyblue;
+    border: 1px solid;
+    padding: 10px;
+}
+.wrapper div:nth-child(odd){
+    background-color: yellow;
+}
+.wrapper{
+    background-image: url(../images/joe-coffee-quality-cupping-960x720.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-auto-rows: minmax(300px,auto);
+    
+    
+}
+    

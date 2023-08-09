@@ -1,0 +1,52 @@
+
+.navbar{
+    padding: 20px;
+    background-color:rgb(88, 224, 218);
+
+    .nav-list{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .nav-list a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-style: italic;
+        font-weight: lighter;
+
+    
+    }
+    #nav-form input{
+        width: 100%;
+        height: 40px;
+        background-color: rgb(8, 8, 59);
+        border: none;
+        border-radius: 3px;
+        color: white;
+        padding: 0 5px;
+    }
+    #nav-form input::placeholder{
+        color: white;
+    }
+    #nav-form{
+        display: flex;
+    }
+    #nav-form button{
+        position: relative;
+        right: 27px;
+        background: none;
+        border: none;
+        color: skyblue;
+    }
+    .mav{
+        padding: 30%;
+        background-color: blue;
+        
+        
+    }
+
+
+    
+    }

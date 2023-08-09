@@ -1,0 +1,35 @@
+.one img{
+        width: 300px;
+        height:300px;
+        margin-left: 500px;
+        border-radius: 50%;
+        transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+        transform:scaleY(0,7)
+}
+.one img:hover{
+    border-radius: 10px;
+    transform:scaleX(1.1);
+    transform:rotateY(360deg);
+
+}
+
+.two{
+    display:block;
+    border:solid;
+
+}
+#three{
+    display:block;
+    border:solid;
+}    
+#flag{
+    border-left: solid;
+    border-right: solid;
+    border-color: black;
+    width: 1000px;
+    height: 1000PX;
+    border-width: 200px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin:0 auto;
+}

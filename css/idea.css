@@ -1,0 +1,15 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+.wrapper img{
+    width: 100%;
+}
+.wrapper .img{
+    position: sticky;
+    top: 0;
+}

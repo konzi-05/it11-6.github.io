@@ -1,0 +1,53 @@
+.left img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+
+.navbar {
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap:30px ;
+    padding:24px;
+}
+.link{
+    text-decoration: chartreuse;
+    color: cornsilk;
+    text-transform: uppercase;
+}
+.link:hover{
+    color:yellow;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+
+}
+/*GRID STYLE*/
+/*.wrapper div{
+    background-color: skyblue;
+    border: 1px solid;
+    padding: 10px;
+}*/
+/*.wrapper div:nth-child(odd){
+    background-color: yellow;
+}*/
+.wrapper{
+    background-image: url(../images/IMG-20220522-WA0055.jpg);
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-auto-rows: minmax(300px,auto);
+    
+    
+}

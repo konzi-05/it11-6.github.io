@@ -1,0 +1,36 @@
+$colors:(
+    primary:blue,
+    secondary:grey,
+    danger:red
+);
+
+$size:(
+    lg:80px,
+    md:30px,
+    sm:10px
+);
+/*@function getColor(){
+    @return map-get($color ,$colors );
+}*/
+@function getVar(){
+    @return map-get($var , $key );
+}
+
+
+.one{
+    h1{
+        font-size: getVar($size , md );
+        color: getVar($colors ,primary);
+        /*color: map-get($colors ,secondary);*/
+    }
+    p{
+        font-size: 20px;
+        color: green;
+    }
+    a{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 100vmax;
+    }
+}

@@ -1,0 +1,32 @@
+.home {
+  padding: 30px 30%;
+  background-color: green;
+  color: yellow;
+}
+
+.home h1 {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .home {
+    background-color: orange;
+  }
+}
+
+@media (max-width: 300px) {
+  .home {
+    background-color: purple;
+  }
+}
+
+@media (max-width: 150px) {
+  .home {
+    background-color: blue;
+  }
+}
+
+.home p {
+  color: grey;
+}
+/*# sourceMappingURL=sass3.css.map */

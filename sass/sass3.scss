@@ -1,0 +1,59 @@
+$mycolors: (
+    sec:white,
+    info:grey,
+    danger:red,
+    warning:yellow,
+    tango:blue,
+    mayday:orange,
+    roman:purple,
+    yeti:skyblue,
+    aqua:seagreen,
+
+
+
+);
+@function ok($key){
+    @return map-get($mycolors, $key );
+}
+@mixin mobile{
+    @media (max-width: 768px){
+        @content;
+    }
+}
+@mixin tango{
+    @media (max-width: 300px){
+        @content;
+    }
+}
+@mixin reckon{
+    @media (max-width: 150px){
+        @content;
+    }
+}
+
+.home{
+    padding: 30px 30%;
+    background-color:green;
+    color: ok(warning);
+    h1{
+        color: ok(danger);
+    }
+
+
+    @include mobile{
+        
+            background-color: ok(mayday);
+    
+    }
+    @include tango{
+        background-color: ok(roman);
+    }
+    @include reckon{
+        background-color: ok(tango);
+    }
+    p{
+        color:ok(info);
+    }
+    
+}
+

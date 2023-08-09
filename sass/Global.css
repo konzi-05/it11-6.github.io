@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+  .L1 {
+    margin: 10 -3rem !important;
+    padding-left: 5rem !important;
+  }
+  .drip {
+    padding-left: 50px;
+  }
+  .L1 img {
+    width: 400px;
+    height: 400px;
+    padding-right: 50px;
+  }
+  .h3 {
+    padding-top: 200px !important;
+    padding-right: 700px !important;
+  }
+  .rip {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  #myBtn {
+    width: 270px !important;
+    padding-right: 350px !important;
+  }
+  .dip {
+    font-size: medium !important;
+  }
+  .L3 {
+    margin: 0 -2rem;
+    padding: 0.5rem 5rem !important;
+  }
+  .grip {
+    font-size: medium;
+  }
+  .L4 {
+    font-size: medium;
+  }
+  .L8 {
+    padding-left: 50px !important;
+    font-size: larger !important;
+  }
+  .L10 {
+    padding-left: 50px;
+  }
+  .sip {
+    font-size: medium;
+  }
+  .nip {
+    font-size: medium;
+  }
+  .lip {
+    font-size: medium;
+  }
+}
+
+.L1 {
+  background-color: burlywood;
+  margin: 0 -3rem;
+  padding: 0.5rem 8rem;
+  padding-bottom: 300px;
+}
+
+.L1 .h1 {
+  padding-bottom: 70px;
+}
+
+.L1 .h3 {
+  padding-bottom: 100px;
+  padding-left: 70px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  font-size: 50px;
+  color: #3b2303;
+  padding-bottom: 20px;
+  position: relative;
+  -webkit-animation: swish 1s linear alternate infinite;
+          animation: swish 1s linear alternate infinite;
+}
+
+.wrap i {
+  -webkit-animation: rollleft 2s linear infinite;
+          animation: rollleft 2s linear infinite;
+}
+
+#middle {
+  top: 93%;
+  -webkit-animation: rollRight 2s linear infinite;
+          animation: rollRight 2s linear infinite;
+}
+
+@-webkit-keyframes rollleft {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rollleft {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rollRight {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes rollRight {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+/*@media (max-width:768px)*/
+@-webkit-keyframes swish {
+  0% {
+    color: black;
+  }
+  10% {
+    color: burlywood;
+  }
+}
+@keyframes swish {
+  0% {
+    color: black;
+  }
+  10% {
+    color: burlywood;
+  }
+}
+
+.L3 {
+  background-color: #794605;
+  margin: 0 -3rem;
+  padding: 0.25rem 1rem;
+  padding-bottom: 50px;
+}
+
+.L5 {
+  background-color: burlywood;
+  margin: 0 -3rem;
+  padding: 0.25rem 1rem;
+  padding-bottom: 450px;
+}
+
+.L7 {
+  background-color: #533104;
+  margin: 0 -3rem;
+  padding: 0.25rem 1rem;
+  padding-bottom: 35px;
+}
+
+.L9 {
+  background-color: burlywood;
+  margin: 0 -3rem;
+  padding: 0.25rem 1rem;
+  padding-bottom: 25px;
+}
+
+.L12 {
+  background-color: #573305;
+  margin: 0 -3rem;
+  padding: 0.25rem 1rem;
+  padding-bottom: 35px;
+}
+/*# sourceMappingURL=LND1.css.map */
